@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+/* tailwind automatically handles it in it's preflight config  started */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* css pattern which won't break across ranges started*/
+
+/* Prevent overflow issues */
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
+/* css pattern which won't break across ranges ended*/
+
+/* tailwind automatically handles it in it's preflight config  ended */
+
+body {
+  font-family: "Geist", sans-serif;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
