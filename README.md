@@ -103,7 +103,7 @@ document.body.appendChild(newDiv);
 
 ---
 
-# 🌊 3. What is Event Bubbling?
+# 🌊 3. What is Event Bubbling? How it works?
 
 Event Bubbling means:
 
