@@ -1,4 +1,4 @@
-console.log("JS connected");
+// console.log("JS connected");
 
 let applicationData = [
   {
@@ -110,7 +110,7 @@ let jobTitle = document.getElementById("jobTitle");
 
 let tabs = document.querySelectorAll('input[name="my_tabs_4"]');
 
-console.log(tabs);
+// console.log(tabs);
 
 let allSec = document.getElementById("allSection");
 let interviewSec = document.getElementById("interviewSection");
@@ -136,7 +136,7 @@ function fun() {
       // console.log(currTab);
     }
   }
-  console.log("currTab passing ", currTab);
+  // console.log("currTab passing ", currTab);
   handleJobTitle(currTab);
 }
 
@@ -429,7 +429,7 @@ function rejectSecDataShowing() {
 }
 
 function changeBadgeStatus(id, state) {
-  console.log(id);
+  // console.log(id);
   if (state === "interview" && applicationData[id - 1].iStatus === false) {
     applicationData[id - 1].iStatus = true;
     applicationData[id - 1].stature = "Interview";
