@@ -68,14 +68,16 @@
 
     <main>
       <div class="p-1 mb-6 flex justify-between items-center">
-        <h1 class="text-2xl text-[#6D8FAD] font-bold">Available Jobs</h1>
+        <h1 id="jobTitle" class="text-2xl text-[#6D8FAD] font-bold">
+          Available Jobs (Total)
+        </h1>
         <p id="total2" class="text-lg font-bold">0 job</p>
       </div>
 
       <section>
         <!-- name of each tab group should be unique -->
         <div class="tabs tabs-lift">
-          <label class="tab">
+          <label class="tab" onclick="handleJobTitle('all')">
             <input type="radio" name="my_tabs_4" checked="checked" />
             <i class="fa-solid fa-border-all text-xl"></i>&ensp;
             <p class="text-xl">All</p>
@@ -99,7 +101,7 @@
             </div>
           </div>
 
-          <label class="tab">
+          <label class="tab" onclick="handleJobTitle('interview')">
             <input type="radio" name="my_tabs_4" />
             <i class="fa-solid fa-podcast text-xl"></i>&ensp;
             <p class="text-xl">Interview</p>
@@ -123,7 +125,7 @@
             </div>
           </div>
 
-          <label class="tab">
+          <label class="tab" onclick="handleJobTitle('rejected')">
             <input type="radio" name="my_tabs_4" />
             <i class="fa-solid fa-circle-xmark"></i>&ensp;
             <p class="text-xl">Rejected</p>

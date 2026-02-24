@@ -99,12 +99,18 @@ let applicationData = [
   },
 ];
 
-console.log(applicationData.length);
+// console.log(applicationData.length);
 
 let total1 = document.getElementById("total1");
 let total2 = document.getElementById("total2");
 let intCnt = document.getElementById("intCnt");
 let rejectCnt = document.getElementById("rejectCnt");
+
+let jobTitle = document.getElementById("jobTitle");
+
+let tabs = document.querySelectorAll('input[name="my_tabs_4"]');
+
+console.log(tabs);
 
 let allSec = document.getElementById("allSection");
 let interviewSec = document.getElementById("interviewSection");
@@ -113,13 +119,26 @@ let rejectSec = document.getElementById("rejectSection");
 let interviewBtnArr = document.getElementsByClassName("interViewCls");
 let deleteBtnArr = document.getElementsByClassName("del");
 
-console.log(deleteBtnArr);
+// console.log(deleteBtnArr);
 
 let badgeStatus = document.getElementsByClassName("badgeStatus");
 // console.log(badgeStatus);
 
 let interviewData = [];
 let rejectData = [];
+
+function fun() {
+  let currTab = "";
+  for (let t of tabs) {
+    if (t.checked) {
+      currTab = t.parentNode.children[2].innerText;
+      currTab = currTab.toLowerCase();
+      // console.log(currTab);
+    }
+  }
+  console.log("currTab passing ", currTab);
+  handleJobTitle(currTab);
+}
 
 function calculateData() {
   total1.innerText = applicationData.length;
@@ -128,8 +147,21 @@ function calculateData() {
   rejectCnt.innerText = rejectData.length;
 }
 
+function handleJobTitle(title) {
+  if (title === "all") {
+    jobTitle.innerText = "Available Jobs (Total)";
+    total2.innerText = `${applicationData.length} ${applicationData.length > 1 ? "jobs" : "job"}`;
+  } else if (title === "interview") {
+    jobTitle.innerText = "Available Jobs (Interview/Total)";
+    total2.innerText = `${interviewData.length} of ${applicationData.length} ${applicationData.length > 1 ? "jobs" : "job"}`;
+  } else if (title === "rejected") {
+    jobTitle.innerText = "Available Jobs (Rejected/Total)";
+    total2.innerText = `${rejectData.length} of ${applicationData.length} ${applicationData.length > 1 ? "jobs" : "job"}`;
+  }
+}
+
 function allSecDataShowing() {
-  console.log("app len: ", applicationData.length);
+  // console.log("app len: ", applicationData.length);
 
   if (applicationData.length > 0) {
     let allCardsHtml = "";
@@ -444,6 +476,7 @@ function changeBadgeStatus(id, state) {
   rejectSecDataShowing();
   calculateData();
   allSecDataShowing();
+  fun();
 }
 
 function delFunc(id) {
@@ -456,14 +489,15 @@ function delFunc(id) {
     applicationData[i].aID = i + 1;
   }
 
-  console.log(applicationData.length);
-  console.log(applicationData);
+  // console.log(applicationData.length);
+  // console.log(applicationData);
 
   calculateData();
   allSecDataShowing();
   interviewSecDataShowing();
   rejectSecDataShowing();
   // changeBadgeStatus(id, st);
+  fun();
 }
 
 calculateData();
