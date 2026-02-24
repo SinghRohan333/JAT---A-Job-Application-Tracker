@@ -28,15 +28,17 @@
   <body>
     <header class="mt-12 p-3 mb-12">
       <div class="p-1 mb-12">
-        <h1 class="text-3xl text-[#6D8FAD] font-bold">
+        <h1 class="text-xl sm:text-3xl text-[#6D8FAD] font-bold">
           Job Application Tracker
         </h1>
       </div>
 
       <!-- Card section -->
-      <section class="grid grid-cols-3 gap-3 mb-2">
+      <section class="grid grid-cols-1 lg:grid-cols-3 gap-3 mb-2">
         <!-- total card -->
-        <div class="card w-96 bg-[#243647] card-xs shadow-sm">
+        <div
+          class="card w-50 sm:w-96 lg:w-60 xl:w-80 2xl:w-96 bg-[#243647] card-xs shadow-sm"
+        >
           <div class="card-body">
             <h2 class="card-title text-xl">Total</h2>
             <p id="total1" class="text-lg font-bold text-orange-500">0</p>
@@ -44,7 +46,9 @@
         </div>
 
         <!-- interview card -->
-        <div class="card w-96 bg-[#243647] card-xs shadow-sm">
+        <div
+          class="card w-50 sm:w-96 lg:w-60 xl:w-80 2xl:w-96 bg-[#243647] card-xs shadow-sm"
+        >
           <div class="card-body">
             <h2 class="card-title text-xl">Interview</h2>
             <p id="intCnt" class="text-lg font-bold text-green-500">0</p>
@@ -52,7 +56,9 @@
         </div>
 
         <!-- rejected card -->
-        <div class="card w-96 bg-[#243647] card-xs shadow-sm">
+        <div
+          class="card w-50 sm:w-96 lg:w-60 xl:w-80 2xl:w-96 bg-[#243647] card-xs shadow-sm"
+        >
           <div class="card-body">
             <h2 class="card-title text-xl">Rejected</h2>
             <p id="rejectCnt" class="text-lg font-bold text-red-500">0</p>
@@ -67,8 +73,10 @@
     </section>
 
     <main>
-      <div class="p-1 mb-6 flex justify-between items-center">
-        <h1 id="jobTitle" class="text-2xl text-[#6D8FAD] font-bold">
+      <div
+        class="p-1 mb-6 flex flex-col sm:justify-between sm:items-center lg:flex-row"
+      >
+        <h1 id="jobTitle" class="text-lg sm:text-2xl text-[#6D8FAD] font-bold">
           Available Jobs (Total)
         </h1>
         <p id="total2" class="text-lg font-bold">0 job</p>
@@ -79,8 +87,8 @@
         <div class="tabs tabs-lift">
           <label class="tab" onclick="handleJobTitle('all')">
             <input type="radio" name="my_tabs_4" checked="checked" />
-            <i class="fa-solid fa-border-all text-xl"></i>&ensp;
-            <p class="text-xl">All</p>
+            <i class="fa-solid fa-border-all text-xs sm:text-xl"></i>&ensp;
+            <p class="text-xs sm:text-xl">All</p>
           </label>
           <div
             id="allSection"
@@ -103,8 +111,8 @@
 
           <label class="tab" onclick="handleJobTitle('interview')">
             <input type="radio" name="my_tabs_4" />
-            <i class="fa-solid fa-podcast text-xl"></i>&ensp;
-            <p class="text-xl">Interview</p>
+            <i class="fa-solid fa-podcast text-xs sm:text-xl"></i>&ensp;
+            <p class="text-xs sm:text-xl">Interview</p>
           </label>
           <div
             id="interviewSection"
@@ -127,8 +135,8 @@
 
           <label class="tab" onclick="handleJobTitle('rejected')">
             <input type="radio" name="my_tabs_4" />
-            <i class="fa-solid fa-circle-xmark"></i>&ensp;
-            <p class="text-xl">Rejected</p>
+            <i class="fa-solid fa-circle-xmark text-xs sm:text-lg"></i>&ensp;
+            <p class="text-xs sm:text-xl">Rejected</p>
           </label>
           <div
             id="rejectSection"

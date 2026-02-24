@@ -185,11 +185,11 @@ function allSecDataShowing() {
                 <section>
                   <div>
                     <h1
-                      class="text-2xl font-bold text-[#F2F2F2] leading-relaxed"
+                      class="text-lg sm:text-2xl font-bold text-[#F2F2F2] leading-relaxed"
                     >
                       ${a.company}
                     </h1>
-                    <p class="text-lg text-[#A6ADBB]">${a.role}</p>
+                    <p class="text-sm sm:text-lg text-[#A6ADBB]">${a.role}</p>
                   </div>
                 </section>
                 <div>
@@ -208,7 +208,7 @@ function allSecDataShowing() {
                 </div>
               </div>
 
-              <ul class="p-8 flex gap-8 list-disc text-[#F2F2F2] pb-2 mb-1">
+              <ul class="p-8 flex flex-col sm:gap-8 lg:flex-row list-disc text-[#F2F2F2] pb-2 mb-1">
                 <li>${a.type}</li>
                 <li>${a.time}</li>
                 <li>${a.salary}</li>
@@ -221,12 +221,12 @@ function allSecDataShowing() {
               </section>
 
               <div class="px-6 py-3 mb-1">
-                <p class="text-[#F2F2F2]">
+                <p class="text-[#F2F2F2] text-xs sm:text-base">
                   ${a.work}
                 </p>
               </div>
 
-              <section class="px-6 pt-3 pb-6 space-x-3">
+              <section class="px-6 pt-3 pb-6 flex gap-3 items-center flex-wrap">
                 <button class="btn btn-outline btn-success text-xl interViewCls" onclick="changeBadgeStatus(${a.aID}, 'interview')">
                   Interview
                 </button>
@@ -271,11 +271,11 @@ function interviewSecDataShowing() {
                 <section>
                   <div>
                     <h1
-                      class="text-2xl font-bold text-[#F2F2F2] leading-relaxed"
+                      class="text-lg sm:text-2xl font-bold text-[#F2F2F2] leading-relaxed"
                     >
                       ${inter.company}
                     </h1>
-                    <p class="text-lg text-[#A6ADBB]">${inter.role}</p>
+                    <p class="text-sm sm:text-lg text-[#A6ADBB]">${inter.role}</p>
                   </div>
                 </section>
                 <div>
@@ -294,7 +294,7 @@ function interviewSecDataShowing() {
                 </div>
               </div>
 
-              <ul class="p-8 flex gap-8 list-disc text-[#F2F2F2] pb-2 mb-1">
+              <ul class="p-8 flex flex-col sm:gap-8 lg:flex-row list-disc text-[#F2F2F2] pb-2 mb-1">
                 <li>${inter.type}</li>
                 <li>${inter.time}</li>
                 <li>${inter.salary}</li>
@@ -307,12 +307,12 @@ function interviewSecDataShowing() {
               </section>
 
               <div class="px-6 py-3 mb-1">
-                <p class="text-[#F2F2F2]">
+                <p class="text-[#F2F2F2] text-xs sm:text-base">
                   ${inter.work}
                 </p>
               </div>
 
-              <section class="px-6 pt-3 pb-6 space-x-3">
+              <section class="px-6 pt-3 pb-6 flex gap-3 items-center flex-wrap">
                 <button class="btn btn-outline btn-success text-xl interViewCls" onclick="changeBadgeStatus(${inter.aID}, 'interview')">
                   Interview
                 </button>
@@ -356,11 +356,11 @@ function rejectSecDataShowing() {
                 <section>
                   <div>
                     <h1
-                      class="text-2xl font-bold text-[#F2F2F2] leading-relaxed"
+                      class="text-lg sm:text-2xl font-bold text-[#F2F2F2] leading-relaxed"
                     >
                       ${r.company}
                     </h1>
-                    <p class="text-lg text-[#A6ADBB]">${r.role}</p>
+                    <p class="text-sm sm:text-lg text-[#A6ADBB]">${r.role}</p>
                   </div>
                 </section>
                 <div>
@@ -379,7 +379,7 @@ function rejectSecDataShowing() {
                 </div>
               </div>
 
-              <ul class="p-8 flex gap-8 list-disc text-[#F2F2F2] pb-2 mb-1">
+              <ul class="p-8 flex flex-col sm:gap-8 lg:flex-row lg:items-center list-disc text-[#F2F2F2] pb-2 mb-1">
                 <li>${r.type}</li>
                 <li>${r.time}</li>
                 <li>${r.salary}</li>
@@ -392,12 +392,12 @@ function rejectSecDataShowing() {
               </section>
 
               <div class="px-6 py-3 mb-1">
-                <p class="text-[#F2F2F2]">
+                <p class="text-[#F2F2F2] text-xs sm:text-base">
                   ${r.work}
                 </p>
               </div>
 
-              <section class="px-6 pt-3 pb-6 space-x-3">
+              <section class="px-6 pt-3 pb-6 flex gap-3 items-center flex-wrap">
                 <button class="btn btn-outline btn-success text-xl interViewCls" onclick="changeBadgeStatus(${r.aID}, 'interview')">
                   Interview
                 </button>
