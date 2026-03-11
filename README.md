@@ -30,21 +30,21 @@
 
 # 📑 Table of Contents
 
-- 📌 About
-- 🎬 Live Demo
-- ⭐ Project Highlights
-- 📸 Project Preview
-- 🧩 Tech Stack
-- 🧠 DOM Concepts Used
-- 📊 Application Architecture
-- 📱 Responsive Design
-- 📂 Project Structure
-- ⚙️ How the App Works
-- 📚 Interview Notes
-- 🚀 Run Locally
-- 🌍 Deployment
-- 📊 GitHub Activity
-- 📜 License
+- [📌 About The Project](#-about-the-project)
+- [🎬 Live Demo](#-live-demo)
+- [⭐ Project Highlights](#-project-highlights)
+- [📸 Project Preview](#-project-preview)
+- [🧩 Tech Stack](#-tech-stack)
+- [🧠 DOM Concepts Used](#-dom-concepts-used)
+- [📊 Application Architecture](#-application-architecture)
+- [📱 Responsive Design](#-responsive-design)
+- [📂 Project Structure](#-project-structure)
+- [⚙️ How the App Works](#-how-the-app-works)
+- [📚 Interview Notes](#-interview-notes)
+- [🚀 Run Locally](#-run-locally)
+- [🌍 Deployment](#-deployment)
+- [📊 GitHub Activity](#-github-activity)
+- [📜 License](#-license)
 
 ---
 
