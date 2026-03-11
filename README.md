@@ -47,6 +47,7 @@
 - [🤝 Contributing](#-contributing)
 - [📊 GitHub Activity](#-github-activity)
 - [📜 License](#-license)
+- [👨‍💻 Author](#-author)
 
 ---
 
