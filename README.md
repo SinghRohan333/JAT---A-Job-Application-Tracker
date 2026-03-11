@@ -43,6 +43,8 @@
 - [📚 Interview Notes](#-interview-notes)
 - [🚀 Run Locally](#-run-locally)
 - [🌍 Deployment](#-deployment)
+- [🎯 Project Goal](#-project-goal)
+- [🤝 Contributing](#-contributing)
 - [📊 GitHub Activity](#-github-activity)
 - [📜 License](#-license)
 
@@ -294,6 +296,31 @@ https://your-github-username.github.io/repository-name
 ```
 https://singhrohan333.github.io/JAT---A-Job-Application-Tracker/
 ```
+
+---
+
+# 🎯 Project Goal
+
+The goal of this project was to:
+
+✔ Practice **JavaScript DOM manipulation**  
+✔ Build **interactive UI without frameworks**  
+✔ Implement **dynamic job tracking**  
+✔ Create **responsive design**  
+✔ Deploy using **GitHub Pages**
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+Steps:
+
+1️⃣ Fork the repository  
+2️⃣ Create a branch  
+3️⃣ Make improvements  
+4️⃣ Submit a Pull Request
 
 ---
 
