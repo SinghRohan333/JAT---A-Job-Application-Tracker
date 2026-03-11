@@ -183,15 +183,17 @@ Techniques used:
 ```
 JAT---A-Job-Application-Tracker
 │
+├── assests
+│
+├── scripts
+│   └── script.js
+│
+├── styles
+│   └── style.css
+│
 ├── index.html
-├── style.css
-├── script.js
-│
-├── assets
-│   ├── header-image.png
-│   ├── project-preview.png
-│   └── demo.gif
-│
+├── tailwind.init.css
+├── LICENSE
 └── README.md
 ```
 
