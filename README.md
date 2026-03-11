@@ -48,7 +48,7 @@
 
 ---
 
-# 📌 About
+# 📌 About The Project
 
 **JAT — A Job Application Tracker** is a lightweight web application that helps manage job applications and track their status.
 
