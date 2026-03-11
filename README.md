@@ -289,6 +289,12 @@ Your site will be available at:
 https://your-github-username.github.io/repository-name
 ```
 
+🔗 For my project, the site is available at:
+
+```
+https://singhrohan333.github.io/JAT---A-Job-Application-Tracker/
+```
+
 ---
 
 # 📊 GitHub Activity
