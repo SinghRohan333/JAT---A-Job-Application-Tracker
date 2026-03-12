@@ -31,10 +31,10 @@
 # 📑 Table of Contents
 
 - [📌 About The Project](#-about-the-project)
-- [🎬 Live Demo](#-live-demo)
-- [🎬 Demo Video](#-demo-video)
+- [🔗 Live Link](#-live-link)
 - [⭐ Project Highlights](#-project-highlights)
 - [📸 Project Preview](#-project-preview)
+- [🎬 Demo Video](#-demo-video)
 - [🧩 Tech Stack](#-tech-stack)
 - [🧠 DOM Concepts Used](#-dom-concepts-used)
 - [📊 Application Architecture](#-application-architecture)
@@ -69,32 +69,18 @@ Main learning goals:
 
 ---
 
-# 🎬 Live Demo
+# 🔗 Live Link
+
+[**🌐 Explore the Live Site**](https://singhrohan333.github.io/JAT---A-Job-Application-Tracker/)
 
 <p align="center">
   <a href="https://your-github-username.github.io/JAT---A-Job-Application-Tracker/" target="_blank">
-    <img src="assets/demo.gif" width="850">
+    <img src="./assests/job_tracker_gif.gif" width="100%">
   </a>
 </p>
 
 <p align="center">
 Click the GIF above to open the live application
-</p>
-
----
-
-# 🎬 Demo Video
-
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/f90e7515-4bb5-4010-977f-4fa714a641d3" 
-    width="100%" 
-    style="max-width: 900px;" 
-    controls 
-    autoplay 
-    muted 
-    loop>
-    Your browser does not support the video tag.
-  </video>
 </p>
 
 ---
@@ -116,6 +102,22 @@ Click the GIF above to open the live application
 
 <p align="center">
   <img src="./assests/mockup.png" alt="JAT Dashboard Preview" width="100%">
+</p>
+
+---
+
+# 🎬 Demo Video
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/f90e7515-4bb5-4010-977f-4fa714a641d3" 
+    width="100%" 
+    style="max-width: 900px;" 
+    controls 
+    autoplay 
+    muted 
+    loop>
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 ---
