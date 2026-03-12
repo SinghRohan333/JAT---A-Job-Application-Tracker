@@ -86,7 +86,7 @@ Click the GIF above to open the live application
 # 🎬 Demo Video
 
 <p align="center">
-  <video src="./assests/demo.mp4" width="900" controls></video>
+  <video src="https://github.com/user-attachments/assets/f90e7515-4bb5-4010-977f-4fa714a641d3" width="900" controls></video>
 </p>
 
 ---
