@@ -32,6 +32,7 @@
 
 - [📌 About The Project](#-about-the-project)
 - [🎬 Live Demo](#-live-demo)
+- [🎬 Demo Video](#-demo-video)
 - [⭐ Project Highlights](#-project-highlights)
 - [📸 Project Preview](#-project-preview)
 - [🧩 Tech Stack](#-tech-stack)
@@ -78,6 +79,14 @@ Main learning goals:
 
 <p align="center">
 Click the GIF above to open the live application
+</p>
+
+---
+
+# 🎬 Demo Video
+
+<p align="center">
+  <video src="./assests/demo.mp4" width="900" controls></video>
 </p>
 
 ---
