@@ -74,7 +74,7 @@ Main learning goals:
 [**🌐 Explore the Live Site**](https://singhrohan333.github.io/JAT---A-Job-Application-Tracker/)
 
 <p align="center">
-  <a href="https://your-github-username.github.io/JAT---A-Job-Application-Tracker/" target="_blank">
+  <a href="https://singhrohan333.github.io/JAT---A-Job-Application-Tracker/" target="_blank">
     <img src="./assests/job_tracker_gif.gif" width="100%">
   </a>
 </p>
