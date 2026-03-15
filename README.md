@@ -364,8 +364,13 @@ MIT License
 
 Rohan Singh
 
-GitHub  
-https://github.com/SinghRohan333
+If you'd like to connect, collaborate, or provide feedback, feel free to reach out:
+
+- 💼 **LinkedIn:** https://www.linkedin.com/in/singhrohan333/
+- 💻 **GitHub:** https://github.com/SinghRohan333
+- 📧 **Email:** rohan.singh.syl@gmail.com
+
+I'm always open to discussions, suggestions, and learning opportunities in web development.
 
 ---
 
