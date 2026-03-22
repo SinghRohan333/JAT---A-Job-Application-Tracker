@@ -356,7 +356,7 @@ Steps:
 
 # 📜 License
 
-MIT License
+[MIT License](LICENSE)
 
 ---
 
